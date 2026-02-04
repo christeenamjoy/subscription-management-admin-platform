@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-mint-500: hsl(178 47% 50%);
+
+  --color-slate-950: hsl(222 47% 11%);
+  --color-slate-900: hsl(222 47% 18%);
+  --color-slate-50: hsl(210 40% 98%);
+}
+
+
+
